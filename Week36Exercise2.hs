@@ -1,11 +1,18 @@
 module Week36Exercise2 where
 
+{-
+Semi-repetetive strenger har egenskaper:
+                                          Hvis streng == partallslengde, første halvdel lik andre halvdel
+                                          Hvis streng == oddetallslengde, delstrenger venstre/høyre for midt like
+-}
+
 
 semiRepetitive :: String -> Maybe String
 decomposeSemiRepetitive :: String -> Maybe (String, Maybe Char)
 createSemiRepetitive :: String -> Maybe Char -> String
 
 
+--Sjekker om streng s er semi-repetitiv, ekskluderer midterste bokstav om oddetallslengde
 semiRepetitive s = 
                     let len = length s
                         mid = len `div` 2
@@ -26,7 +33,7 @@ semiRepetitive s =
 
 
 
-
+--Gjør samme som semiRepetitive, men returnerer også midterste bokstav
 decomposeSemiRepetitive s =
                 let len = length s
                     mid = len `div` 2
@@ -47,7 +54,7 @@ decomposeSemiRepetitive s =
                             else Nothing
 
 
-
+--Oppretter en semirepetitiv streng av input s, legger char ch som midterste hvis oddetallslengde ønsket
 createSemiRepetitive s ch =
                             
                         if ch /= Nothing
