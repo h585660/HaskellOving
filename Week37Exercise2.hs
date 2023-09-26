@@ -3,6 +3,14 @@ module Week37Exercise2 where
 import Data.List (unwords)
 import Data.Maybe (fromMaybe)
 
+{-
+Fullføre funksjonene: 
+                      numberToWord
+                      groupByThousands
+                      zeroToNothing
+-}
+
+
 {- Takes the numbers used in the words for the integers 0 to 999 999 999 and
 returns their corresponding words -}
 atomicNumberToWord :: Integer -> String
