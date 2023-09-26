@@ -1,5 +1,6 @@
 module Week35Exercise1 where
 
+--Regner ut trekanttallene
 
 triangleNumber:: Integer -> Integer
 
