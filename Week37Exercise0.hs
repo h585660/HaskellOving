@@ -1,5 +1,9 @@
 module Week37Exercise0 where
 
+{-
+Funksjonen information har parametre String, String, Integer og returnerer en streng av form "'x' is studying at 'y' department and started in 'z".
+Ekskluderer år < 2022
+-}
 
 information :: [String] -> [String] -> [Integer] -> [String] 
 
