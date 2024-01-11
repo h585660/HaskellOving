@@ -11,9 +11,7 @@ Many of these files were designed to be handed into CodeGrade, armed with their 
 
 In Short: These are not meant to be executed directly. Admire them, learn from them, but don't expect them to perform any magical feats when run. Unless you're really interested in diving deep into Haskell, it's probably best to just peruse them for their inherent beauty.
 
-📜 How to Explore:
-Clone this repository: git clone [your-repo-link-here]
-Navigate to the directory of your interest.
+📜 
 Open the Haskell file you wish to delve into using your preferred text editor.
 Marvel at the elegant simplicity of functional programming.
 🌌 Parting Words:
